@@ -1,5 +1,7 @@
+from typing import List
+
 class Solution:
-    def findClosestNumber(self, nums: List[int]) -> int:
+    def findClosestNumber(self, nums:  List[int]) -> int:
 
         #Step 1: Make a variable to hold value while we iterate through the list
         answer = nums[0]
