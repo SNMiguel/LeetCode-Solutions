@@ -25,3 +25,6 @@ nums2 = [2,-1,1]
 sol = Solution()
 print(sol.findClosestNumber(nums1))  # Output: 1
 print(sol.findClosestNumber(nums2))  # Output: 1
+
+#Time complexity: O(n)
+#Space complexity: O(1)
