@@ -26,6 +26,17 @@ class Solution:
 
         # Step 5: Returning the merged letters added to the remaining ones of the longest word
         return (merged + longest[min_length:])
+    
+word1 = "abc"
+word2 = "pqr"
+word3 = "ab"
+word4 = "pqrs"
+word5 = "abcd"
+word6 = "pq"
+sol = Solution()
+print(sol.mergeAlternately(word1, word2))  # Output: "apbqcr"
+print(sol.mergeAlternately(word3, word4))  # Output: "apbqrs"
+print(sol.mergeAlternately(word5, word6))  # Output: "apbqcd"
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
