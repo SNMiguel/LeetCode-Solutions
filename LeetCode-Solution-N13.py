@@ -1,6 +1,5 @@
 # LeetCode Solution N13: Roman to Integer
 # Difficulty: Easy
-from typing import List
 
 class Solution:
     def romanToInt(self, s: str) -> int:

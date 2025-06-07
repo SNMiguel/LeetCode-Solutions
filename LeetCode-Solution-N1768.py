@@ -1,6 +1,5 @@
 # LeetCode Solution N1768: Merge Strings Alternately
 # Difficulty: Easy
-from typing import List
 
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
