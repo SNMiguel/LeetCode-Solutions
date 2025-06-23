@@ -39,11 +39,11 @@ class Solution:
             
             # Step 5: Otherwise, add the current number and its index to the hash map
             hashmap[num] = i
-    # Time Complexity: O(n)
-    # Space Complexity: O(n)
+    # Time Complexity: O(n) 
+    # Space Complexity: O(n) 
     
-nums = [2,7,11,15], target = 9
+nums = [2,7,11,15], target = 13
 nums1 = [3,3], target1 = 6
 solution = Solution()
-print(solution.twoSum(nums, target))  # Output: [0, 1]
+print(solution.twoSum(nums, target))  # Output: [0, 2
 print(solution.twoSumOpt(nums1, target1))  # Output: [0, 1]
