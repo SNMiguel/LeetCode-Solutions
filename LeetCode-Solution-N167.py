@@ -48,11 +48,11 @@ class Solution:
                 right -= 1
             else:
                 
-                # If the sum equals the target, return the indices of the two numbers
+                # If the sum equals the target, return the indices of the two numbers.
                 return [left+1, right+1] 
             
     # Time Complexity: O(n)
-    # Space Complexity: O(1)
+    # Space Complexity: O(1) 
     
 numbers = [2,7,11,15], target = 9
 numbers1 = [2,3,4], target1 = 6
