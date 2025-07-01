@@ -26,4 +26,4 @@ print(solution.possibleStringCount(word1))  # Output: 4
 print(solution.possibleStringCount(word2))  # Output: 1
 
 # Time Complexity: O(n), where n is the length of the word
-# Space Complexity: O(1), as we are using a constant amount of space for the
+# Space Complexity: O(1), as we are using a constant amount of space for the result variable
