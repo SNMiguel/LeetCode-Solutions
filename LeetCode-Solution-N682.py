@@ -4,7 +4,11 @@ from typing import List
 
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
+        
+        # Step 1: Initialize a stack to keep track of the scores
         stack = []
+        
+        # Step 2: Iterate through each operation in the operations list
         for index in range(len(operations)):
             if operations[index] == "+":
                 stack.append(stack[-1] + stack[-2])
@@ -14,6 +18,8 @@ class Solution:
                 stack.pop()
             else:
                 stack.append(int(operations[index]))
+                
+        # Step 3: Return the sum of the scores in the stack
         return sum(stack)
     
 ops = ["5","2","C","D","+"]
