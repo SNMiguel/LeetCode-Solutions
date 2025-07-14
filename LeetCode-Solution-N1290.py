@@ -29,3 +29,12 @@ class Solution:
 
         # Step 5: Return the calculated decimal value
         return value
+    
+head = [1,0,1]
+head1 = [0]
+solution = Solution()
+print(solution.getDecimalValue(ListNode(1, ListNode(0, ListNode(1)))))  # Output: 5
+print(solution.getDecimalValue(ListNode(0)))  # Output: 0
+
+# Time Complexity: O(n), where n is the number of nodes in the linked list.
+# Space Complexity: O(n), for storing the binary string representation.
