@@ -9,7 +9,7 @@ class Solution:
         # Step 1: Count the occurrences of each number in the list
         dic_nums = Counter(nums)
         
-        # Step 2: Iterate through the dictionary to find the number that occurs only once
+        # Step 2: Iterate through the dictionary to find the number that occurs only once.
         for key, value in  dic_nums.items():
             if value == 1:
                 return key
