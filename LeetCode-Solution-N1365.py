@@ -27,3 +27,6 @@ nums = [8,1,2,2,3]
 nums1 = [6,5,4,8]
 print(Solution().smallerNumbersThanCurrent(nums)) # Output: [4,0,1,1,3]
 print(Solution().smallerNumbersThanCurrent(nums1)) # Output: [2,1,0,3]
+
+# TIME COMPLEXITY: O(n log n) where n is the length of nums due to the sorting step.
+# SPACE COMPLEXITY: O(n) for storing the sorted array and the dictionary.
