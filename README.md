@@ -1,7 +1,7 @@
 # LeetCode-Solutions 🚀
 
 Welcome to my **LeetCode Solutions** repository!  
-Here, I share my journey through solving LeetCode problems in Python, along with clean, readable, and well-documented code. My goal is to stay consistent, improve problem-solving skills, and hopefully help others in the process.
+Here, I share my journey through solving LeetCode problems in Python, along with clean, readable, and well-documented code. My goal is to stay consistent, improve problem-solving skills, and hopefully help others in the process of interview preparation.
 
 
 ## 📌 What's Inside
